@@ -8,7 +8,7 @@ Module 17
 2) Balanced Random Forest model is classification technique to address imbalanced data. The algorithm applies an under-sampling strategy based on clustering techniques for each data bootstrap decision tree.
 3) EasyEnsemble is probably the most straightforward way to further exploit the majority class examples ignored by under-sampling. This method independently samples several subsets. For each subset, a classifier is trained on and all generated classifiers are combined for the final decision.
 
-# Results-n search of finding the best machine learning algorithm to predict High Credit Risk for loans, we ran 3 machine learning models: a) Logistics Regression with 4 different types of sampling options, 2) Balanced Random forest and 3) EasyEnsemble AdaBoost.
+# Results- In search of finding the best machine learning algorithm to predict High Credit Risk for loans, we ran 3 machine learning models: a) Logistics Regression with 4 different types of sampling options, 2) Balanced Random forest and 3) EasyEnsemble AdaBoost.
 
 Based on our observation, Random Oversampling provided the best results among 4 sampling options. Balanced Accuracy score was the highest at 0.66. However, precision for High credit risk was very low at 0.01 and Low risk is almost 1.00. This means, we may not be getting all the instances of High credit risk loan applications despite oversampling. F1 score was also low for High Credit Risk i.e 0.02 only. While low Risk F1 was 0.80 which is high. However, Logistics Regression is not the best model to predict High credit risk for loans.
 To further review a model that best predicts High credit risk, our search continued to Balanced Random forest and Easy Ensemble Adaboost.
