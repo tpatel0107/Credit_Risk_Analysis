@@ -20,10 +20,13 @@ Module 17
 **The Balanced Accuracy score is 0.925 closest to 1, which is the best predictor of High credit Risk. F1 score for high risk was 0.14 and low risk was 0.97 with an average of 0.97 that balances both the concerns of precision and recall in one number. Precision score for high credit risk was 0.07 highest when compared to other models. This was achieved by under-sampling majority class ie. Low Credit Risk. There must be lots of False positives. Recall or sensitivity even though highest may not matter in this case.
 
 **Please see below the Summary Results of the 6 algorithm and definitions of metrics
+
 ![GitHub Graph](https://github.com/tpatel0107/Credit_Risk_Analysis/blob/main/Summary%20Results.PNG?raw=true)
 
 # Summary & Definition-The following criteria were used for evaluating the model. Below are four possible outcomes based on Confusion Matrix. We utilize the following measurements to access high risk credit
+
 ![GitHub Graph](https://github.com/tpatel0107/Credit_Risk_Analysis/blob/main/Results.PNG?raw=true)
+
 **Precision: is likelihood of application has a high credit risk. If an application is predicted to be high risk and is really high risk, then it is a true positive (TP). However, if an application is predicted to be high risk but is not high risk, then it is a false positive (FP).
 **Precision is obtained by dividing the number of true positives (TP) by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP).categorized an high risk. Precision = TP/ (TP + FP)
 
